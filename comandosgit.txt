@@ -30,4 +30,5 @@ git switch -c novaBranch
 
 git restore --source hashCommitQueSeraRestaurado arquivoRestaurará ou . (todos os arquivos)
 
-git merge nomeOutraBranch
+git merge nomeOutraBranch //se não houverem commits desde a criação da nova branch, o git só faz um "fast foward" mas se houveram commits, ele faz um commit de merge ("merge commit")
+e caso hajam conflitos, ele irá passar os conflitos para serem resolvidos 
