@@ -1,0 +1,18 @@
+Anotações de comandos git do curso 2:
+
+git log --oneline // para ver somente as mensagens dos commits
+
+git log -p // comando que mostra alterações, se a linha tem - foi removida, se tem +, a linha foi adicionada
+
+git log --graph // mostra linha do tempo
+
+git log --format = "%H %an" (ou --pretty) // com isso, pode ver o hash e o autor do commit
+
+git log --help // trás uma documentação, busca a documentação de ajuda do git
+
+git show hashDoCommit //faz a mesma coisa q o -p mas só do commit do hash especificado -> sem especificar nenhum hash, irá mostrar as alterações do head
+
+HEAD -> significa o commit atual que nossa branch no repositório remoto se encontra
+
+git diff //mostra as alterações pendentes de commit que estão fora do stage
+mas para comparar as diferenças entre dois commits específicos usamos da sintaxe: git diff hashCommitMaisAntigo..hashCommitMaisRecente
