@@ -16,3 +16,14 @@ HEAD -> significa o commit atual que nossa branch no repositório remoto se enco
 
 git diff //mostra as alterações pendentes de commit que estão fora do stage
 mas para comparar as diferenças entre dois commits específicos usamos da sintaxe: git diff hashCommitMaisAntigo..hashCommitMaisRecente
+se eu especificar um único commit, ele vai comparar com o head
+
+O comando git show mostra o que foi alterado em um commit enquanto o git diff mostra a diferença entre 2 pontos.
+
+git branch -m nomeAtual novoNome //para renomear uma branch
+git branch -d nomeBranche //comando para remover uma branch, só é possível remover uma branch que você não está
+git branch nomeNovaBranch // comando para criar uma nova branch
+git checkout nomeNovaBranch // após criar a nova branch é necessário "se mudar" para ela, e para isso utlizamos esse comando
+
+Novo comando para unir criação e alteração de branch:
+git switch -c novaBranch
