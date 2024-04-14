@@ -27,3 +27,7 @@ git checkout nomeNovaBranch // após criar a nova branch é necessário "se muda
 
 Novo comando para unir criação e alteração de branch:
 git switch -c novaBranch
+
+git restore --source hashCommitQueSeraRestaurado arquivoRestaurará ou . (todos os arquivos)
+
+git merge nomeOutraBranch
